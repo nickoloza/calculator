@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button layoutX="16.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleButtonseven" prefHeight="54.0" prefWidth="94.0" text="7" />
+      <Label fx:id="Mylabel" layoutX="17.0" layoutY="14.0" prefHeight="66.0" prefWidth="318.0" text="Hello" textAlignment="JUSTIFY">
+         <font>
+            <Font size="43.0" />
+         </font></Label>
+      <Button layoutX="354.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleButtonplus" prefHeight="54.0" prefWidth="94.0" text="+" />
+      <Button layoutX="125.0" layoutY="309.0" mnemonicParsing="false" onAction="#result" prefHeight="54.0" prefWidth="206.0" text="=" />
+      <Button layoutX="127.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleButtoneight" prefHeight="54.0" prefWidth="94.0" text="8" />
+      <Button layoutX="241.0" layoutY="103.0" mnemonicParsing="false" onAction="#handleButtonnine" prefHeight="54.0" prefWidth="94.0" text="9" />
+      <Button layoutX="14.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleButtonfour" prefHeight="54.0" prefWidth="94.0" text="4" />
+      <Button layoutX="125.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleButtonfive" prefHeight="54.0" prefWidth="94.0" text="5" />
+      <Button layoutX="239.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleButtonsix" prefHeight="54.0" prefWidth="94.0" text="6" />
+      <Button layoutX="14.0" layoutY="242.0" mnemonicParsing="false" onAction="#handleButtonOne" prefHeight="54.0" prefWidth="94.0" text="1" />
+      <Button layoutX="125.0" layoutY="242.0" mnemonicParsing="false" onAction="#handleButtonTwo" prefHeight="54.0" prefWidth="94.0" text="2" />
+      <Button layoutX="239.0" layoutY="242.0" mnemonicParsing="false" onAction="#handleButtonthree" prefHeight="54.0" prefWidth="94.0" text="3" />
+      <Button layoutX="16.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleButtonzero" prefHeight="54.0" prefWidth="94.0" text="0" />
+      <Button layoutX="354.0" layoutY="175.0" mnemonicParsing="false" onAction="#handleButtonminuse" prefHeight="54.0" prefWidth="94.0" text="-" />
+      <Button layoutX="354.0" layoutY="242.0" mnemonicParsing="false" onAction="#handleButtonmultiply" prefHeight="54.0" prefWidth="94.0" text="*" />
+      <Button layoutX="354.0" layoutY="309.0" mnemonicParsing="false" onAction="#handleButtondevide" prefHeight="54.0" prefWidth="94.0" text="/" />
+      <Button layoutX="354.0" layoutY="20.0" mnemonicParsing="false" onAction="#delete" prefHeight="54.0" prefWidth="94.0" text="CE" />
+   </children>
+</AnchorPane>
